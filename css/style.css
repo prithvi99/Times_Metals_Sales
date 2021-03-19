@@ -1591,6 +1591,9 @@ textarea.input {
     height: 75px;
     top: 13px;
   }
+  .cover-photo-product{
+    height: 90vh;
+  }
 
 }
 
