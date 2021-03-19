@@ -1547,24 +1547,78 @@ textarea.input {
 }
 
 @media screen and (max-width:768px){
-  /* .composition__photo--p2{
-    width: 100%;
-    left: 0%;
-    margin-bottom: 10px;
-    top: -90px;
-    margin: 20px;
+  .heading-primary-2{
+    letter-spacing: 0;
   }
-  .parah-1{
-    top: 100px;
+  .heading-primary-3{
+  letter-spacing: 0;
+}
+  .heading-primary-1{
+    letter-spacing: 0;
   }
-  .composition__photo--p1{
-    width: 100%;
-    top: 600px;
-    left: 0%;
+.nav-move-1{
+  display: none !important;
+}
+.section-features{
+  height: 95vh;
+}
+.fb-1{
+  margin-top: -280px;
+}
+.fb-2{
+  margin-top: -290px;
+}
+.fb-3{
+  margin-top: 30px;
+}
+.fb-4{
+  margin-top: 30px;
+}
 
-  } */
+.banner-text{
+  font-size: 2rem;
+}
+}
+
+@media(max-width:425px){
+  .nav-move{
+    display: none;
+  }
+  .nav-p{
+    width: 100%;
+  }
+  .logo-times{
+    height: 75px;
+    top: 13px;
+  }
 
 }
+
+@media screen and (max-width: 575px ){
+  .section-features{
+    height: 155vh;
+  }
+
+  .fb-1{
+    margin-top: -280px;
+  }
+  .fb-2{
+    margin-top: 30px;
+  }
+  .fb-3{
+    margin-top: 30px;
+  }
+  .fb-4{
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 375px ){
+  .section-features{
+    height: 205vh;
+  }
+}
+
 
 
 /* @media screen and (max-width:768px){
